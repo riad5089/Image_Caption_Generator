@@ -15,6 +15,7 @@ import pyttsx3
 import base64
 
 
+
 def set_bg_hack_url():
     '''
     A function to unpack an image from url and set as bg.
