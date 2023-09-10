@@ -9,7 +9,7 @@ astunparse==1.6.3
 
 attrs==23.1.0
 Babel==2.12.1
-tensorflow==2.13.0
+tensorflow==2.7.0
 bleach==6.0.0
 blinker==1.6.2
 cachetools==5.3.1
