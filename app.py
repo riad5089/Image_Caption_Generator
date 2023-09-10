@@ -5,7 +5,7 @@ import pickle
 import tensorflow as tf
 from tensorflow import keras
 from keras.models import Model
-from keras.applications.vgg16 import VGG16, preprocess_input
+from tensorflow.keras.applications.vgg16 import VGG16, preprocess_input
 from keras.preprocessing.image import load_img, img_to_array
 from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
