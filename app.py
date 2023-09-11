@@ -62,7 +62,7 @@ def preprocess_image_url(image_url):
 model_1 = load_model("best_mode_vgg_40.h5", compile=False)
 
 # Load the tokenizer
-with open("tokenizer40.pickle", 'rb') as handle:
+with open("tokenizer40_new.pickle", 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 def idx_to_word(integer, tokenizer):
