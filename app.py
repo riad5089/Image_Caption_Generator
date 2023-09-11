@@ -14,6 +14,8 @@ import pyttsx3
 import base64
 
 
+
+
 def set_bg_hack_url():
     '''
     A function to unpack an image from url and set as bg.
@@ -39,9 +41,8 @@ def set_bg_hack_url():
 
 
 print(set_bg_hack_url())
-#
-#
-# # Preprocess the uploaded image
+
+# Preprocess the uploaded image
 def preprocess_image(uploaded_image):
     image = Image.open(uploaded_image)
     image = image.resize((224, 224))  # Resize the image to match VGG16 input size
@@ -97,16 +98,8 @@ def predict_caption(model, image, tokenizer, max_length):
             break
     return in_text
 
-def generate_audio(caption):
-    engine = pyttsx3.init()
-    engine.save_to_file(caption, 'caption_audio.mp3')
-    engine.runAndWait()
-
 def main():
-
-
     st.title("Image Caption Generator 📷 ➡️ 📝")
-
 
     # Choose an input option: Upload or URL
     input_option = st.radio("Select an input option:", ("Upload Image", "Image URL"))
@@ -134,17 +127,10 @@ def main():
                 generated_caption = generated_caption.replace('startseq', '').replace('endseq', '').strip()
                 generated_caption = generated_caption.capitalize()
 
-                # Generate audio from the caption
-                generate_audio(generated_caption)
-
                 # Display the generated caption
-                st.markdown('#### Predicted Caption:')
+                st.markdown('#### Predicted Captions:')
                 st.markdown(f"<p style='font-size:25px'><i>{generated_caption}</i>.</p>",
                             unsafe_allow_html=True)
-
-                # Display the audio
-                st.audio('caption_audio.mp3')
-
 
     elif input_option == "Image URL":
         # Input image URL
@@ -170,18 +156,10 @@ def main():
                 generated_caption = generated_caption.replace('startseq', '').replace('endseq', '').strip()
                 generated_caption = generated_caption.capitalize()
 
-                # Generate audio from the caption
-                generate_audio(generated_caption)
-
                 # Display the generated caption
-                st.markdown('#### Predicted Caption:')
+                st.markdown('#### Predicted Captions:')
                 st.markdown(f"<p style='font-size:25px'><i>{generated_caption}</i>.</p>",
                             unsafe_allow_html=True)
 
-                # Display the audio
-                st.audio('caption_audio.mp3')
-
-
 if __name__ == "__main__":
     main()
-
