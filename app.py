@@ -1,18 +1,34 @@
 
+# import streamlit as st
+# import numpy as np
+# import pickle
+# import tensorflow as tf
+# from tensorflow import keras
+# import keras.src as keras
+# from tensorflow import keras
+# from keras.models import Model
+# from keras.applications.vgg16 import VGG16, preprocess_input
+# from tensorflow.keras.preprocessing.image import load_img, img_to_array
+# from tensorflow.keras.models import load_model
+
+# from tensorflow.keras.preprocessing.sequence import pad_sequences
+# from PIL import Image
 import streamlit as st
 import numpy as np
 import pickle
 import tensorflow as tf
 from tensorflow import keras
-import keras.src as keras
-from tensorflow import keras
 from keras.models import Model
 from keras.applications.vgg16 import VGG16, preprocess_input
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
-from tensorflow.keras.models import load_model
-
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.preprocessing.image import load_img, img_to_array
+from keras.models import load_model
+from keras.preprocessing.sequence import pad_sequences
 from PIL import Image
+import requests
+from io import BytesIO
+import pyttsx3
+import base64
+
 import requests
 from io import BytesIO
 import pyttsx3
