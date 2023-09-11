@@ -1,46 +1,16 @@
+
 import streamlit as st
 import numpy as np
 import pickle
-from tensorflow.keras.models import Model
-from tensorflow.keras.applications.vgg16 import VGG16, preprocess_input
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
-from tensorflow.keras.models import load_model
-
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+import tensorflow as tf
+from keras.models import Model
+from keras.applications.vgg16 import VGG16, preprocess_input
+from keras.preprocessing.image import load_img, img_to_array
+from keras.models import load_model
+from keras.preprocessing.sequence import pad_sequences
 from PIL import Image
 import requests
 from io import BytesIO
-import pyttsx3
-import base64
-
-
-
-
-def set_bg_hack_url():
-    '''
-    A function to unpack an image from url and set as bg.
-    Returns
-    -------
-    The background.
-    '''
-    st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url("https://images.unsplash.com/photo-1500468415400-191607326b6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-            background-position: center center;
-            width: 100%;
-            height: 100%;
-        }}
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
-
-print(set_bg_hack_url())
 
 # Preprocess the uploaded image
 def preprocess_image(uploaded_image):
