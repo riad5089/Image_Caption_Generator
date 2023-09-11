@@ -8,4 +8,3 @@ protobuf==3.20.3
 requests==2.31.0
 pyttsx3==2.90
 altair==4.2.2
-Keras-Preprocessing==1.1.2
