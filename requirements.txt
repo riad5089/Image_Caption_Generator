@@ -1,4 +1,4 @@
-tensorflow==2.13
+tensorflow==2.11.0
 streamlit==1.12.0
 gunicorn==21.2.0
 Pillow>=8.0.0
