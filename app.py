@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import pickle
 import tensorflow as tf
-from tensorflow import keras
+# from tensorflow import keras
 from tensorflow.keras.models import Model
 from tensorflow.keras.applications.vgg16 import VGG16, preprocess_input
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
