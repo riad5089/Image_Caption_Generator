@@ -24,12 +24,15 @@ This is a Deep Learning Model for generating captions for images. It uses techni
 
 
 <h3> TABLE OF CONTENTS </h3>
-<ol type="I">
+<ol>
     <li><a href="#intro"> Introduction </a></li>
     <li><a href="#dataset"> Dataset </a></li>
     <li><a href="#model"> Model </a> </li>
+    <li><a href="#result"> Result </a> </li>
 <!--     <li><a href="#examples"> Examples </a></li> -->
     <li><a href="#frameworks"> Frameworks, Libraries & Languages </a></li>
+    <li><a href="#deployment"> Deployment </a></li>
+    <li><a href="#demo"> Demo </a></li>
     <li><a href="#usage"> Usage </a></li>
     <li><a href="#acknowledgement"> Acknowledgement </a></li>
 </ol>
