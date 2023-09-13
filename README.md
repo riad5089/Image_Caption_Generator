@@ -34,7 +34,7 @@ This is a Deep Learning Model for generating captions for images. It uses techni
     <li><a href="#frameworks"> Frameworks, Libraries & Languages </a></li>
     <li><a href="#deployment"> Deployment </a></li>
     <li><a href="#demo"> Demo </a></li>
-    <li><a href="#usage"> Usage </a></li>
+    <li><a href="#conclusion"> Conclusion </a></li>
     <li><a href="#acknowledgement"> Acknowledgement </a></li>
 </ol>
 
