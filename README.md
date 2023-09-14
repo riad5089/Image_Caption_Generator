@@ -83,6 +83,8 @@ Image | Caption
 <img src="demo/e98c741a23421241f7ce5cb399ead8762ec71f2b74e1e58ad957eae4.jpg" width="400"> | **Generated Caption:** Woman in green shirt and glasses is climbing large rock.
 <img src="demo/78c65793b4613ed5d95686c90cad4c6856e018f3727b139220b38223.jpg" width="400"> | **Generated Caption:** Dog jumps over hurdle.
 <img src="demo/961b377b96dbf7cbe2729e0552d2bd7e720c7bc16bf761fd7b53efeb.jpg" width="400"> | **Generated Caption:** Man in blue jacket snowboarding.
+<img src="demo/738020db6a97154799_0x0.jpg" width="400"> | **Generated Caption:** Basketball player dribbles the ball.
+
 
 <h2 id="frameworks"> Frameworks, Libraries & Languages </h2>
 
