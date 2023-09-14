@@ -23,6 +23,7 @@ This is a Deep Learning Model for generating captions for images. It uses techni
 </p>
 
 
+
 <h3> TABLE OF CONTENTS </h3>
 <ol>
     <li><a href="#intro"> Introduction </a></li>
@@ -84,3 +85,7 @@ InceptionV3 with Lstm | 0.5012 | 0.545291 | 0.323035
     <li> Matplotlib </li>
     <li> pickle </li>
 </ul>
+
+<h2 id="deployment"> Deployment </h2>
+
+I made a web application using streamlit and deploy it  to [HuggingFace Spaces](https://huggingface.co/spaces/MdRiad/Image_caption_generator) and [share.streamlit.io](https://imagecaptiongenerator-cjmnhj4scsrxheqxtsmune.streamlit.app/). The implementation resource be found in ```app``` folder.
