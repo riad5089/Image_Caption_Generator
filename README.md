@@ -99,4 +99,6 @@ Image | Caption
 
 <h2 id="deployment"> Deployment </h2>
 
-I made a web application using streamlit and deploy it  to [HuggingFace Spaces](https://huggingface.co/spaces/MdRiad/Image_caption_generator) and [share.streamlit.io](https://imagecaptiongenerator-cjmnhj4scsrxheqxtsmune.streamlit.app/). The implementation resource be found in ```app``` folder.
+I made a web application using streamlit framework. This web application is hosted and deployed on two platforms: [HuggingFace Spaces](https://huggingface.co/spaces/MdRiad/Image_caption_generator) and [share.streamlit.io](https://imagecaptiongenerator-cjmnhj4scsrxheqxtsmune.streamlit.app/). The implementation can be found in ```app``` folder.
+
+
