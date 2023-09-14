@@ -56,7 +56,7 @@ This project uses the ```Flickr 8K``` dataset for training the model. This can b
 
 </p>
 
-<h2 id="model"> Model </h2>
+<h2 id="model"> Used Models </h2>
 
 <p align="justify">
     This project i used several models like vgg16 with lstm,resnet50 with lstm, inception v3 wiht lstm but considering everything i deployed vgg16 with lstm for my convenience the Vgg16 architecture for obtaining the image features. VGG networks, standing for Visual Geometry Group networks, have played a pivotal role in the realm of Computer Vision. Their significance was highlighted when they secured victory in the prestigious ImageNet Challenge. VGG networks demonstrated a groundbreaking concept—how even deep neural networks (VGG16 and VGG19 are examples) can be effectively trained, transcending the limitations of the vanishing gradient problem.
@@ -73,3 +73,14 @@ Models | Accuracy | BLEU-1 | BLEU-1
 Vgg 16 with Lstm | 0.5125 | 0.534878 | 0.308821
 Resnet 50 with Lstm | 0.5522 | 0.548153 | 0.321559
 InceptionV3 with Lstm | 0.5012 | 0.545291 | 0.323035
+
+<h2 id="frameworks"> Frameworks, Libraries & Languages </h2>
+
+<ul>
+    <li> Keras </li>
+    <li> Tensorflow </li>
+    <li> Python3 </li>
+    <li> Numpy </li>
+    <li> Matplotlib </li>
+    <li> pickle </li>
+</ul>
