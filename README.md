@@ -75,6 +75,15 @@ Vgg 16 with Lstm | 0.5125 | 0.534878 | 0.308821
 Resnet 50 with Lstm | 0.5522 | 0.548153 | 0.321559
 InceptionV3 with Lstm | 0.5012 | 0.545291 | 0.323035
 
+<h2 id="result"> Predicted Result </h2>
+
+Image | Caption 
+--- | --- 
+<img src="demo/3071676551_a65741e372.jpg" width="400"> | **Generated Caption:** Surfer rides the waves.
+<img src="demo/e98c741a23421241f7ce5cb399ead8762ec71f2b74e1e58ad957eae4.jpg" width="400"> | **Generated Caption:** Woman in green shirt and glasses is climbing large rock.
+<img src="demo/78c65793b4613ed5d95686c90cad4c6856e018f3727b139220b38223.jpg" width="400"> | **Generated Caption:** Dog jumps over hurdle.
+<img src="demo/961b377b96dbf7cbe2729e0552d2bd7e720c7bc16bf761fd7b53efeb.jpg" width="400"> | **Generated Caption:** Man in blue jacket snowboarding.
+
 <h2 id="frameworks"> Frameworks, Libraries & Languages </h2>
 
 <ul>
