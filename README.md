@@ -108,7 +108,20 @@ This my web application demo. The application you can find [HuggingFace Spaces](
 
 https://github.com/riad5089/Image_Caption_Generator/assets/93583569/270f348f-404a-4823-b014-bed14be0d5b1
 
+<h2 id="conclusion"> Conclusion </h2>
 
+This image caption generator application shows promise but currently faces challenges in generating accurate captions due to factors such as limited computational resources, a relatively small dataset, occasional GPU issues, and memory constraints. However, I am committed to making continuous improvements and enhancements to enhance its performance in the future. If you have any suggestions regarding this feel free to send me pull request.
+
+<h2 id="acknowledgement"> Acknowledgement </h2>
+
+I referred many articles & research papers while working on this project. Some of them are listed below-
+</p>
+    <ul>
+        <li> https://www.ijcai.org/Proceedings/15/Papers/593.pdf](https://www.analyticsvidhya.com/blog/2021/12/step-by-step-guide-to-build-image-caption-generator-using-deep-learning/) </li>
+      
+  <li> https://data-flair.training/blogs/python-based-project-image-caption-generator-cnn/ </li>
+  <li> https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33](https://www.hackersrealm.net/post/image-caption-generator-using-python)https://www.hackersrealm.net/post/image-caption-generator-using-python </li>
+    </ul>
 
 
 
