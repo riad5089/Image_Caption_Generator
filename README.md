@@ -117,10 +117,11 @@ This image caption generator application shows promise but currently faces chall
 I referred many articles & research papers while working on this project. Some of them are listed below-
 </p>
     <ul>
-        <li> https://www.ijcai.org/Proceedings/15/Papers/593.pdf](https://www.analyticsvidhya.com/blog/2021/12/step-by-step-guide-to-build-image-caption-generator-using-deep-learning/) </li>
+        <li> https://www.analyticsvidhya.com/blog/2021/12/step-by-step-guide-to-build-image-caption-generator-using-deep-learning/ </li>
       
   <li> https://data-flair.training/blogs/python-based-project-image-caption-generator-cnn/ </li>
-  <li> https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33](https://www.hackersrealm.net/post/image-caption-generator-using-python)https://www.hackersrealm.net/post/image-caption-generator-using-python </li>
+  <li> https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33 </li>
+   <li> https://www.hackersrealm.net/post/image-caption-generator-using-python </li>
     </ul>
 
 
