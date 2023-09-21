@@ -62,7 +62,9 @@ This project uses the ```Flickr 8K``` dataset for training the model. This can b
 
 </p>
 
-<h2 id="model">Used Model</h2>
+#<h2 id="model">Used Model</h2>
+## Used Model {#model}
+
 
 <p align="justify">
     In this project i used several models like vgg16 with lstm,resnet50 with lstm, inception v3 with lstm but considering everything i deployed vgg16 with lstm for my convenience the Vgg16 architecture for obtaining the image features. VGG networks, standing for Visual Geometry Group networks, have played a pivotal role in the realm of Computer Vision. Their significance was highlighted when they secured victory in the prestigious ImageNet Challenge. VGG networks demonstrated a groundbreaking concept—how even deep neural networks (VGG16 and VGG19 are examples) can be effectively trained, transcending the limitations of the vanishing gradient problem.
