@@ -9,7 +9,7 @@
 </a>
 </p>
 
-<h1> Image_Caption_Generator </h1>
+<h1> Image Caption Generator </h1>
 
 
 <p align="justify">
