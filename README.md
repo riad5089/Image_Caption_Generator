@@ -39,7 +39,7 @@ This is a Deep Learning Model for generating captions for images. It uses techni
     <li><a href="#acknowledgement"> Acknowledgement </a></li>
 </ol>
 
-<h2 id="intro"> Introduction </h2>
+<h2 id="intro">Introduction</h2>
 <p align="justify">
 Deep Learning and Neural Networks have found profound applications in both NLP and Computer Vision. Before the Deep Learning era, statistical and Machine Learning techniques were commonly used for these tasks, especially in NLP. Neural Networks however have now proven to be powerful techniques, especially for more complex tasks. With the increase in size of available datasets and efficient computational tools, Deep Learning is being throughly researched on and applied in an increasing number of areas.Image captioning is the process of taking an image and generating a caption that accurately describes the scene. This is a difficult task for neural networks because it requires understanding both natural language and computer vision. It is intersection between NLP and Computer Vision.
 <p align="center">
@@ -56,13 +56,13 @@ The purpose of your image captioning project is to develop a system that can gen
 </p>
 
 
-<h2 id="dataset"> Dataset </h2>
+<h2 id="dataset">Dataset</h2>
 
 This project uses the ```Flickr 8K``` dataset for training the model. This can be downloaded from <a href="https://www.kaggle.com/shadabhussain/flickr8k?select=model_weights.h5"> here</a>. It contains 8000 images, most of them featuring people and animals in a state of action.Though i have used two more dataset like [Flickr 30k](https://www.kaggle.com/datasets/adityajn105/flickr30k) and [Microsoft CoCo](https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset) but flickr 8k comparatively doing well from among datasets.Here Each image is provided with five different captions describing the entities and events depicted in the image. Different captions of the same image tend to focus on different aspects of the scene, or use different linguistic constructions. This ensures that there is enough linguistic variety in the description of the images.
 
 </p>
 
-<h2 id="model"> Used Model </h2>
+<h2 id="model">Used Model</h2>
 
 <p align="justify">
     In this project i used several models like vgg16 with lstm,resnet50 with lstm, inception v3 with lstm but considering everything i deployed vgg16 with lstm for my convenience the Vgg16 architecture for obtaining the image features. VGG networks, standing for Visual Geometry Group networks, have played a pivotal role in the realm of Computer Vision. Their significance was highlighted when they secured victory in the prestigious ImageNet Challenge. VGG networks demonstrated a groundbreaking concept—how even deep neural networks (VGG16 and VGG19 are examples) can be effectively trained, transcending the limitations of the vanishing gradient problem.
@@ -75,7 +75,7 @@ In the world of Transfer Learning, VGG networks shine brightly. Keras, a widely-
 <div align="center">
   <img src="https://github.com/riad5089/Image_Caption_Generator/assets/93583569/48546d51-ab5b-4f59-9dc3-96b9eb60e1b9" alt="Image">
 </div>
-<h2 id="performance"> Models performance </h2>
+<h2 id="performance">Models performance</h2>
 
 Models | Accuracy | BLEU-1 | BLEU-1
 --- | --- | --- | ---
@@ -83,7 +83,7 @@ Vgg 16 with Lstm | 0.5125 | 0.540437 | 0.316454
 Resnet 50 with Lstm | 0.5522 | 0.538153 | 0.321559
 InceptionV3 with Lstm | 0.5012 | 0.545291 | 0.323035
 
-<h2 id="result"> Predicted Result </h2>
+<h2 id="result">Predicted Result</h2>
 
 Image | Caption 
 --- | --- 
@@ -94,7 +94,7 @@ Image | Caption
 <img src="demo/738020db6a97154799_0x0.jpg" width="400"> | **Generated Caption:** Basketball player dribbles the ball.
 
 
-<h2 id="frameworks"> Frameworks, Libraries & Languages </h2>
+<h2 id="frameworks">Frameworks, Libraries & Languages</h2>
 
 <ul>
     <li> Keras </li>
@@ -105,7 +105,7 @@ Image | Caption
     <li> pickle </li>
 </ul>
 
-<h2 id="deployment"> Deployment </h2>
+<h2 id="deployment">Deployment</h2>
 
 I made a web application using streamlit framework. This web application is hosted and deployed on two platforms: [HuggingFace Spaces](https://huggingface.co/spaces/MdRiad/Image_caption_generator) and [share.streamlit.io](https://imagecaptiongenerator-cjmnhj4scsrxheqxtsmune.streamlit.app/). The implementation can be found in ```app``` folder.
 
@@ -116,7 +116,7 @@ This my web application demo. The application you can find [HuggingFace Spaces](
 
 https://github.com/riad5089/Image_Caption_Generator/assets/93583569/270f348f-404a-4823-b014-bed14be0d5b1
 
-<h2 id="conclusion"> Conclusion </h2>
+<h2 id="conclusion">Conclusion</h2>
 
 This image caption generator application shows promise but currently faces challenges in generating accurate captions due to factors such as limited computational resources, a relatively small dataset, occasional GPU issues, and memory constraints. However, I am committed to making continuous improvements and enhancements to enhance its performance in the future. If you have any suggestions regarding this feel free to send me pull request.
 
