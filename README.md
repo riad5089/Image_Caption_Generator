@@ -40,7 +40,7 @@ This is a Deep Learning Model for generating captions for images. It uses techni
 </ol>
 
 
-<h2 id="Introduction">Introduction</h2>
+<h2 id="intro">Introduction</h2>
 
 Deep Learning and Neural Networks have found profound applications in both NLP and Computer Vision. Before the Deep Learning era, statistical and Machine Learning techniques were commonly used for these tasks, especially in NLP. Neural Networks however have now proven to be powerful techniques, especially for more complex tasks. With the increase in size of available datasets and efficient computational tools, Deep Learning is being throughly researched on and applied in an increasing number of areas.Image captioning is the process of taking an image and generating a caption that accurately describes the scene. This is a difficult task for neural networks because it requires understanding both natural language and computer vision. It is intersection between NLP and Computer Vision.
 <p align="center">
