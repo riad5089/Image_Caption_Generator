@@ -28,7 +28,7 @@ This is a Deep Learning Model for generating captions for images. It uses techni
 <ol>
     <li><a href="#intro"> Introduction </a></li>
     <li><a href="#dataset"> Dataset </a></li>
-    <li><a href="#model">Used Model</a></li>
+    <li><a href="#model" >Used Model </a></li>
     <li><a href="#performance"> Models performance </a> </li>
     <li><a href="#result"> Predicted Result </a> </li>
 <!--     <li><a href="#examples"> Examples </a></li> -->
@@ -75,6 +75,7 @@ In the world of Transfer Learning, VGG networks shine brightly. Keras, a widely-
 <div align="center">
   <img src="https://github.com/riad5089/Image_Caption_Generator/assets/93583569/48546d51-ab5b-4f59-9dc3-96b9eb60e1b9" alt="Image">
 </div>
+
 <h2 id="performance">Models performance</h2>
 
 Models | Accuracy | BLEU-1 | BLEU-1
