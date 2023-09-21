@@ -28,7 +28,7 @@ This is a Deep Learning Model for generating captions for images. It uses techni
 <ol>
     <li><a href="#intro"> Introduction </a></li>
     <li><a href="#dataset"> Dataset </a></li>
-    <li><a href="#model"> Used Models </a> </li>
+    <li><a href="#model"> Used Model </a> </li>
     <li><a href="#performance"> Models performance </a> </li>
     <li><a href="#result"> Predicted Result </a> </li>
 <!--     <li><a href="#examples"> Examples </a></li> -->
@@ -52,7 +52,7 @@ The purpose of your image captioning project is to develop a system that can gen
   <img alt="Image Captions demo"  
        src="demo/september 9, 2019  200 pm  findlay residence.gif"
        height="400",
-       weight ="700">
+       weight ="900">
 </p>
 
 
@@ -62,7 +62,7 @@ This project uses the ```Flickr 8K``` dataset for training the model. This can b
 
 </p>
 
-<h2 id="model"> Used Models </h2>
+<h2 id="model"> Used Model </h2>
 
 <p align="justify">
     In this project i used several models like vgg16 with lstm,resnet50 with lstm, inception v3 with lstm but considering everything i deployed vgg16 with lstm for my convenience the Vgg16 architecture for obtaining the image features. VGG networks, standing for Visual Geometry Group networks, have played a pivotal role in the realm of Computer Vision. Their significance was highlighted when they secured victory in the prestigious ImageNet Challenge. VGG networks demonstrated a groundbreaking concept—how even deep neural networks (VGG16 and VGG19 are examples) can be effectively trained, transcending the limitations of the vanishing gradient problem.
@@ -72,6 +72,9 @@ The hallmark of VGG networks is their simplicity and uniformity. Unlike the orig
 In the world of Transfer Learning, VGG networks shine brightly. Keras, a widely-used deep learning framework, includes pre-trained VGG models along with weights fine-tuned on the expansive ImageNet dataset. This availability has made VGG networks a go-to choice for researchers and practitioners in the field. Since we only need this network for getting the image feature vectors, so we remove the last layer. 
 </p>
 
+<div align="center">
+  <img src="https://github.com/riad5089/Image_Caption_Generator/assets/93583569/48546d51-ab5b-4f59-9dc3-96b9eb60e1b9" alt="Image">
+</div>
 <h2 id="performance"> Models performance </h2>
 
 Models | Accuracy | BLEU-1 | BLEU-1
