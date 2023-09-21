@@ -39,6 +39,7 @@ This is a Deep Learning Model for generating captions for images. It uses techni
     <li><a href="#acknowledgement">Acknowledgement</a></li>
 </ol>
 
+<!-- Introduction -->
 ## Introduction
 
 <p align="justify">
