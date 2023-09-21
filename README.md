@@ -120,7 +120,7 @@ https://github.com/riad5089/Image_Caption_Generator/assets/93583569/270f348f-404
 
 This image caption generator application shows promise but currently faces challenges in generating accurate captions due to factors such as limited computational resources, a relatively small dataset, occasional GPU issues, and memory constraints. However, I am committed to making continuous improvements and enhancements to enhance its performance in the future. If you have any suggestions regarding this feel free to send me pull request.
 
-<h2 id="acknowledgement"> Acknowledgement </h2>
+<h2 id="acknowledgement">Acknowledgement</h2>
 
 I referred many articles & research papers while working on this project. Some of them are listed below-
 </p>
