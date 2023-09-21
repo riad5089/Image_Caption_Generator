@@ -46,6 +46,8 @@ Deep Learning and Neural Networks have found profound applications in both NLP a
 <br><br><img src="demo/Screenshot_89.png" width=700 height=400>
 </p>
 <br>
+<p>
+The purpose of your image captioning project is to develop a system that can generate descriptive captions for images. The primary objective is to automate the process of generating accurate and meaningful textual descriptions that capture the visual content and context of the images.</p>
 <p align="center">
   <img alt="Image Captions demo"  
        src="demo/september 9, 2019  200 pm  findlay residence.gif"
@@ -53,12 +55,6 @@ Deep Learning and Neural Networks have found profound applications in both NLP a
        weight ="700">
 </p>
 
-
-
-In 2012 the Google <a href="http://www.image-net.org/">ImageNet</a> Challenge results showed that Convolutional Neural Networks (CNNs) can be an excellent choice for tasks involving visual imagery. Being translation invariant, after learning a pattern in one region of an image, CNNs can very easily recognize it in another region - a task that was quite computationally inefficient in vanilla feed-forward networks. When many convolutional layers are stacked together, they can efficiently learn to recognize patterns in a hierarchical manner - the initial layers learn to detect edges, lines etc. while the later layers make  use of these to learn more complex features. In this project, we make use of a popular CNN architecture - the ResNet50 to process the input images and get the feature vectors.
-<br>
-For generating the captions, we make use of Long Short-Term Memory (LSTM) networks. LSTMs are a variant of Recurrent Neural Networks which are widely used in Natural Language Processing. Unlike a Dense layer, an RNN layer does not process an input in one go. Instead, it processes a sequence element-by-element, at each step incorporating new data with the information processed so far. This property of an RNN makes it a natural yet powerful architecture for processing sequential inputs.
-</p>
 
 <h2 id="dataset"> Dataset </h2>
 
