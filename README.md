@@ -40,7 +40,7 @@ This is a Deep Learning Model for generating captions for images. It uses techni
 </ol>
 
 
-<h2 id="dataset">Introduction</h2>
+<h2 id="Introduction">Introduction</h2>
 
 Deep Learning and Neural Networks have found profound applications in both NLP and Computer Vision. Before the Deep Learning era, statistical and Machine Learning techniques were commonly used for these tasks, especially in NLP. Neural Networks however have now proven to be powerful techniques, especially for more complex tasks. With the increase in size of available datasets and efficient computational tools, Deep Learning is being throughly researched on and applied in an increasing number of areas.Image captioning is the process of taking an image and generating a caption that accurately describes the scene. This is a difficult task for neural networks because it requires understanding both natural language and computer vision. It is intersection between NLP and Computer Vision.
 <p align="center">
@@ -64,8 +64,6 @@ This project uses the ```Flickr 8K``` dataset for training the model. This can b
 </p>
 
 <h2 id="model">Used Model</h2>
-
-
 
 <p align="justify">
     In this project i used several models like vgg16 with lstm,resnet50 with lstm, inception v3 with lstm but considering everything i deployed vgg16 with lstm for my convenience the Vgg16 architecture for obtaining the image features. VGG networks, standing for Visual Geometry Group networks, have played a pivotal role in the realm of Computer Vision. Their significance was highlighted when they secured victory in the prestigious ImageNet Challenge. VGG networks demonstrated a groundbreaking concept—how even deep neural networks (VGG16 and VGG19 are examples) can be effectively trained, transcending the limitations of the vanishing gradient problem.
