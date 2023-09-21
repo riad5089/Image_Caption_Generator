@@ -24,6 +24,7 @@ This is a Deep Learning Model for generating captions for images. It uses techni
 
 
 
+
 <h3> TABLE OF CONTENTS </h3>
 <ol>
     <li><a href="#intro">Introduction</a></li>
@@ -31,7 +32,6 @@ This is a Deep Learning Model for generating captions for images. It uses techni
     <li><a href="#model">Used Model</a></li>
     <li><a href="#performance">Models performance</a></li>
     <li><a href="#result">Predicted Result</a> </li>
-<!--     <li><a href="#examples"> Examples </a></li> -->
     <li><a href="#frameworks">Frameworks, Libraries & Languages</a></li>
     <li><a href="#deployment">Deployment</a></li>
     <li><a href="#demo">Demo</a></li>
@@ -39,10 +39,9 @@ This is a Deep Learning Model for generating captions for images. It uses techni
     <li><a href="#acknowledgement">Acknowledgement</a></li>
 </ol>
 
-<!-- Introduction -->
-## Introduction
 
-<p align="justify">
+<h2 id="dataset">Introduction</h2>
+
 Deep Learning and Neural Networks have found profound applications in both NLP and Computer Vision. Before the Deep Learning era, statistical and Machine Learning techniques were commonly used for these tasks, especially in NLP. Neural Networks however have now proven to be powerful techniques, especially for more complex tasks. With the increase in size of available datasets and efficient computational tools, Deep Learning is being throughly researched on and applied in an increasing number of areas.Image captioning is the process of taking an image and generating a caption that accurately describes the scene. This is a difficult task for neural networks because it requires understanding both natural language and computer vision. It is intersection between NLP and Computer Vision.
 <p align="center">
 <br><br><img src="demo/Screenshot_89.png" width=700 height=400>
@@ -55,7 +54,7 @@ The purpose of your image captioning project is to develop a system that can gen
        src="demo/september 9, 2019  200 pm  findlay residence.gif"
        height="400",
        weight ="900">
-</p>
+
 
 
 <h2 id="dataset">Dataset</h2>
