@@ -51,7 +51,7 @@ Deep Learning and Neural Networks have found profound applications in both NLP a
 The purpose of your image captioning project is to develop a system that can generate descriptive captions for images. The primary objective is to automate the process of generating accurate and meaningful textual descriptions that capture the visual content and context of the images.</p>
 <p align="center">
   <img alt="Image Captions demo"  
-       src="demo/september 9, 2019  200 pm  findlay residence.gif"
+       src="demo/generated.gif"
        height="400",
        weight ="900">
 
