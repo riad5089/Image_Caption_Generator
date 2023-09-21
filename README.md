@@ -28,7 +28,7 @@ This is a Deep Learning Model for generating captions for images. It uses techni
 <ol>
     <li><a href="#intro"> Introduction </a></li>
     <li><a href="#dataset"> Dataset </a></li>
-    <li><a href="#model" >Used Model </a></li>
+    <li><a href="#model">Used Model </a></li>
     <li><a href="#performance"> Models performance </a> </li>
     <li><a href="#result"> Predicted Result </a> </li>
 <!--     <li><a href="#examples"> Examples </a></li> -->
@@ -62,8 +62,8 @@ This project uses the ```Flickr 8K``` dataset for training the model. This can b
 
 </p>
 
-#<h2 id="model">Used Model</h2>
-## Used Model {#model}
+<h2 id="model">Used Model</h2>
+
 
 
 <p align="justify">
