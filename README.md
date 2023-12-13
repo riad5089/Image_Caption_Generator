@@ -79,7 +79,7 @@ In the world of Transfer Learning, VGG networks shine brightly. Keras, a widely-
 
 <h2 id="performance">Models performance</h2>
 
-Models | Accuracy | BLEU-1 | BLEU-1
+Models | Accuracy | BLEU-1 | BLEU-2
 --- | --- | --- | ---
 Vgg 16 with Lstm | 0.5125 | 0.540437 | 0.316454
 Resnet 50 with Lstm | 0.5522 | 0.538153 | 0.321559
